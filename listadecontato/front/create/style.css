@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    background: rgb(102, 102, 102);
+}
+
+.cadastro{
+    margin:  2vh;
+
+}
+
+.form{
+    margin-top: 5vh;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.entrance_form{
+    width: 25%;
+    height: 2rem;
+    font-size: 20px;
+
+    margin: 2px;
+}
+
+.btn_nav{
+    margin: 5px;
+    display: flex;
+    width: 25%;
+    height: 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn_form{
+    width: 30%;
+    font-size: 25px;
+    background-image: linear-gradient(to bottom right, #8d74dd,  #f091e0);
+    border-color:  #7e7e7e;
+
+    cursor: pointer;
+}
+
+.btn_form:hover{
+    border-color: rgb(0, 0, 0);
+
+}
+
+.btn_return {
+    font-size: 20px;
+}
